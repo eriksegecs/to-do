@@ -2,16 +2,20 @@
   "name": "to-do",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://InaraACardoso.github.io/to-do/",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build",
   },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "next": "14.0.4",
+    "gh-pages": "^5.0.0"
   },
   "devDependencies": {
     "typescript": "^5",
